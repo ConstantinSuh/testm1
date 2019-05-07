@@ -46,7 +46,7 @@ class Router
 
         $controllerClassName[0] = strtoupper($controllerClassName[0]);
         $controllerClassNamespace = 'Controllers\\' . $controllerClassName . 'Controller';
-        $controllerClassName = 'controllers' . DIRECTORY_SEPARATOR . $controllerClassName . 'Controller';
+        $controllerClassName = 'Controllers' . DIRECTORY_SEPARATOR . $controllerClassName . 'Controller';
 
         $controllerFileName = $this->rootPath . $controllerClassName . '.php';
         if (file_exists($controllerFileName)) {

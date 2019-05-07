@@ -54,7 +54,7 @@ class App
 
     private function initConfig()
     {
-        self::$_app->config = require ROOT_PATH . './config.php';
+        self::$_app->config = require ROOT_PATH . '/config.php';
     }
 
     private function init()
